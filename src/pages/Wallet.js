@@ -70,8 +70,10 @@ const Wallet = () => {
             setNewErc721Addr(e.target.value); // 입력받을 때마다 newErc721addr 갱신
           }}
         ></input>
+        컨트랙트의 주소 입력!! 본인 지갑주소 XX
         <button onClick={addNewErc721Token}>add new erc721</button>
       </div>
+      <TokenList erc721list={erc721list} />
     </div>
   );
 };
