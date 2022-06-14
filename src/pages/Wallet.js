@@ -72,6 +72,7 @@ const Wallet = () => {
         ></input>
         컨트랙트의 주소 입력!! 본인 지갑주소 XX
         <button onClick={addNewErc721Token}>add new erc721</button>
+        0xB11021Ab812751d039DF38068899a9102481E063
       </div>
       <TokenList erc721list={erc721list} />
     </div>
