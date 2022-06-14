@@ -1,0 +1,13 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+.opensea_logo {
+  display: flex;
+  width: 300px;
+  background-image: url("./opensea_logo.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
